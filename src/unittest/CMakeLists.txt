@@ -11,7 +11,7 @@
 project(unittest)
 
 set(SOURCES gtest_main.cc
-            testUtilityFunction.cpp
+            testCRC.cpp
             )
 
 set(CMAKE_EXE_LINKER_FLAGS  "-rdynamic")
